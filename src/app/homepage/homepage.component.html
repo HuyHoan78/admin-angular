@@ -1,0 +1,21 @@
+<!-- <app-header></app-header>
+
+<app-home></app-home>
+
+<app-footer></app-footer> -->
+
+
+<div id="wrapper">
+    <app-header></app-header>
+    <div id="content-wrapper" className="d-flex flex-column">
+        <div id="content">
+            <app-home></app-home>
+            <div className="container-fluid">
+                <router-outlet></router-outlet>
+                <app-footer></app-footer>
+            </div>
+        </div>
+    </div>
+
+
+</div>
